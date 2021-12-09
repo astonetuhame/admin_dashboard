@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!--SideMenu-->
+    <section id="menu">
+        <div class="logo">
+            <img src="assets/imgs/logo.png.png">
+            <h2>Dashboard</h2>
+        </div>
+        <div class="items">
+            <li>
+            <i class="fas fa-chart-pie"></i>
+            <a href="#">Dashboard</a>
+            </li>
+            <li>
+            <i class="fab fa-uikit"></i>
+            <a href="#">UI Elements</a>
+            </li>
+            <li>
+            <i class="fas fa-th-large"></i>
+            <a href="#">Tables</a>
+            </li>
+            <li>
+            <i class="fas fa-edit"></i>
+            <a href="#">Forms</a>
+            </li>
+            <li>
+            <i class="fab fa-cc-visa"></i>
+            <a href="#">Cards</a>
+            </li>
+            <li>
+            <i class="fas fa-hamburger"></i>
+            <a href="#">Modal</a>
+            </li>
+            <li>
+            <i class="fas fa-chart-line"></i>
+            <a href="#">Blank</a>
+            </li>
+        </div>
+    </section>
+
+    <!--Interface-->
+    <section id="interface">
+        <div class="navigation">
+            <!--Search-->
+
+            <div class="n1">
+                <div>
+                    <i id="menu-btn" class="fas fa-bars"></i>
+                </div>
+                <div class="search">
+                    <i class="far fa-search"></i>
+                    <form>
+                        <input type="text" placeholder="search">
+                    </form>
+                </div>
+            </div>
+
+            <!--Profile-->
+            <div class="profile">
+                <i class="far fa-bell"></i>
+                <img src="assets/imgs/1.jpg" >
+            </div>
+        </div>
+
+        <!--Title-->
+        <h3 class="i-name">Products</h3>
+
+        <!--Table-->
+        <div class="board">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Title</td>
+                        <td>Category</td>
+                        <td>Quantity</td>
+                        <td>Price</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="people">
+                            <p><img src=""></p>
+                            <div class="people-description">
+                                <h5>Running Shoes</h5>
+                            </div>
+                        </td>
+                        <td class="people-des">
+                            <h5>Shoes</h5>
+                        </td>
+                        <td class="active">
+                            <p>50</p>
+                        </td>
+                        <td class="role">
+                            <p>$149.99</p>
+                        </td>
+                        <td class="edit">
+                            <p>
+                                <a href="#">Edit</a>
+                            </p>
+                        </td>
+                        <td class="edit">
+                            <p>
+                                <a href="#">Delete</a>
+                            </p>
+                        </td>
+                    </tr>
+
+                    
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+<script>
+    $('#menu-btn').click(function(){
+        $('#menu').toggleClass('active');
+    })
+</script>
+</body>
+</html>
